@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-uglifier"
+VERSION=1.3.0
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby JavaScript compressor extension"
+DESCRIPTION="Ruby wrapper for UglifyJS JavaScript compressor"
