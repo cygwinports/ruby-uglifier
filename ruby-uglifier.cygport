@@ -1,8 +1,14 @@
 inherit rubygem
 
 NAME="ruby-uglifier"
-VERSION=2.1.2
+VERSION=2.5.3
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby JavaScript compressor extension"
 DESCRIPTION="Ruby wrapper for UglifyJS JavaScript compressor"
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_uglifier_CONTENTS=${RUBYGEM_INSTDIR#/}" "${RUBYGEM_SPEC#/}
+ruby_uglifier_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
