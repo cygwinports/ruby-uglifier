@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-uglifier"
-VERSION=2.5.3
+VERSION=2.7.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby JavaScript compressor extension"
